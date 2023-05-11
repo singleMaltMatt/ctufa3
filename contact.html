@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Matthew van Schalkwyk" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./css/grid.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  </head>
+  <body>
+    <button onclick="topFunction()" id="toTop" title="Go to top">Top</button>
+    <header>
+      <div class="row">
+        <div class="col-12 center logoAnimation">
+          <div class="col-2">
+            <img src="./img/logo.png" alt="logo" class="logo" />
+          </div>
+          <div class="col-10">
+            <h1 class="headerTitle">Matthew van Schalkwyk</h1>
+            <h3 class="headerTitle">UI Designer</h3>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <nav>
+        <div class="row">
+          <div class="col-12 center">
+            <ul>
+              <li class=" linkGlow">
+                <a href="./index.html">Home Page</a>
+              </li>
+              <li class=" linkGlow">
+                <a href="./about.html">About Page</a>
+              </li>
+              <li class=" linkGlow">
+                <a href="./gallery.html">Gallery Page</a>
+              </li>
+              <li class=" linkGlow">
+                <a href="./contact.html">Contact Page</a>
+              </li>
+              <li class=" linkGlow">
+                <a href="./social.html">Social Page</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="center">
+          Contact Me.
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 center">
+            <form method="post" action="index.html"> 
+                <label for="name" class="label">
+                    Full Name: 
+                </label>
+                <br>
+                <input type="text" name="name" class="input"/>
+                <br>
+                <br>
+                <label for="number" class="label">
+                    Number: 
+                </label>
+                <br>
+                <input type="tel" name="number" class="input" required/>
+                <br>
+                <br>
+                <label for="email" class="label">
+                    Email: 
+                </label>
+                <br>
+                <input type="email" name="email" class="input" required/>
+                <br>
+                <br>
+                <label for="comment" class="label">
+                    Comments: 
+                </label>
+                <br>
+                <textarea name="comment" class="input"></textarea>
+                <br>
+                <br>
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </main>
+    <section>
+      <div class="row">
+        <div class="col-12 center details">
+          <p>
+            Tel: +27 78 011 9543
+          </p>
+          <p>
+            E-Mail: <a href="mailto:mattmatt93@gmail.com">mattmatte93@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col-4 line">
+          <ul>
+            <li>
+              <a href="https://www.ctutraining.ac.za" target="_blank">
+                Where I Study
+              </a>
+            </li>
+            <li><a href="https://notwoods.github.io/color-breakdown/" target="_blank">
+              Useful Websites
+            </a>
+            </li>
+            <li><a href="https://www.learnui.design/" target="_blank">
+              Learn About UI
+            </a>
+            </li>
+            <li><a href="https://lawsofux.com/" target="_blank">
+              Learn About UX
+            </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 center line">
+          <p>&copy Copyright Matthew van Schalkwyk</p>
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="./img/facebook.png" alt="facebook" class="icon" />
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="./img/instagram.png" alt="instagram" class="icon" />
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="./img/twitter.png" alt="twitter" class="icon" />
+          </a>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li><a href="gallery.html"></a>Gallery</li>
+            <li><a href="contact.html"></a>Contact</li>
+            <li><a href="social.html"></a>Social</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
